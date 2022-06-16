@@ -11,7 +11,9 @@ describe('ServerElementComponent', () => {
       declarations: [ ServerElementComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ServerElementComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -11,7 +11,9 @@ describe('CockpitComponent', () => {
       declarations: [ CockpitComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(CockpitComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
